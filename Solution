@@ -1,0 +1,11 @@
+import sys                                                                      
+                                                                               
+inp = sys.argv[1:]                                                              
+out = []                                                                        
+                                                                                   
+for i in inp:                                                                      
+    if i not in out:                                                              
+        out.append(i)                                                              
+                                                                                   
+co = len(out)                                                                      
+print(co)
